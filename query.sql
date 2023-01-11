@@ -12,7 +12,7 @@ WHERE cfu>10;
 -- 3 --
 SELECT * 
 FROM `students` 
-WHERE YEAR(CURDATE())- YEAR(date_of_birth)= 30
+WHERE YEAR(CURDATE())- YEAR(date_of_birth)> 30
 
 -- 4 --
 SELECT * 
